@@ -17,7 +17,22 @@ This architecture prioritizes security by using a short-lived Access Token store
 
 ## Project Structure
 
-. ├── app.py ├── firestore_utils.py ├── .env <-- IMPORTANT: This file is ignored by Git and holds secrets! ├── venv/ <-- IMPORTANT: This folder is ignored by Git and holds the virtual environment. ├── templates/ │ ├── dashboard.html │ ├── index.html │ └── register.html └── static/ ├── css/ │ └── style.css └── js/ └── script.js
+```
+.
+├── app.py
+├── firestore_utils.py
+├── .env  <-- IGNORED: Holds secrets
+├── venv/ <-- IGNORED: Virtual environment
+├── templates/
+│   ├── dashboard.html
+│   ├── index.html
+│   └── register.html
+└── static/
+    ├── css/
+    │   └── style.css
+    └── js/
+        └── script.js
+```
 
 ## Setup and Installation
 
