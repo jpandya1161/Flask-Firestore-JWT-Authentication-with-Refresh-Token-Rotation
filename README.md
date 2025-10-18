@@ -12,7 +12,7 @@ This architecture prioritizes security by using a short-lived Access Token store
   - **Refresh Token:** Stored in an **HTTP-only cookie** for enhanced security.
 - **Silent Refresh:** The `/refresh` endpoint automatically exchanges an expired Access Token for a new one using the valid Refresh Token, providing a smooth user experience.
 - **User Registration & Login:** Utilizes **Google Firestore** as the persistence layer for user credentials.
-  - ⚠️ **Security Note:** The provided code saves passwords in plaintext for demonstration purposes. **In a real application, you must HASH passwords** (e.g., using bcrypt) before saving them and compare against the hash during login.
+  - **Security Note:** The provided code saves passwords in plaintext for demonstration purposes. **In a real application, you must HASH passwords** (e.g., using bcrypt) before saving them and compare against the hash during login.
 - **Technology Stack:** Flask, PyJWT, Python `secrets`, Google Firestore Admin SDK.
 
 ## Project Structure
