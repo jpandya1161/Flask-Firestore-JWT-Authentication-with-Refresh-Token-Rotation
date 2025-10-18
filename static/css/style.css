@@ -1,0 +1,9 @@
+body {
+  /* Ensures the font is loaded, though Tailwind handles the rest */
+  font-family: "Inter", sans-serif;
+}
+.card {
+  /* Applies the consistent card shadow */
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
+    0 5px 15px -5px rgba(0, 0, 0, 0.04);
+}
