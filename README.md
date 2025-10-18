@@ -41,7 +41,7 @@ This architecture prioritizes security by using a short-lived Access Token store
 ### 2. Get the Code
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jpandya1161/Flask-Firestore-JWT-Authentication-with-Refresh-Token-Rotation.git
 cd flask-firestore-jwt-auth
 ```
 
